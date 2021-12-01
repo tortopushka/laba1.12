@@ -49,14 +49,12 @@ public class List<T> {
     }
     /**
      * check for emptiness
-     *
      * @return 1 if empty
      * 0 is not empty
      */
     boolean isEmpty(){
         return(head==null);
     }
-
     /**
      * get size of list
      * @return size
@@ -66,7 +64,6 @@ public class List<T> {
     }
     /**
      * add element to List
-     *
      * @param elem element type T
      */
     void add(T elem){
@@ -82,7 +79,6 @@ public class List<T> {
     }
     /**
      * delete element
-     *
      * @param index position of deleted element type int
      * @throws Exception when unavailable position
      */
@@ -112,7 +108,6 @@ public class List<T> {
     }
     /**
      * delete element from position
-     *
      * @param pos index of deleted element type int
      */
     private void deleteFromPosition(int pos){
@@ -129,7 +124,6 @@ public class List<T> {
     }
     /**
      * convert list to string
-     *
      * @return  string
      */
     @Override
